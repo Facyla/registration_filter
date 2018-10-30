@@ -1,5 +1,5 @@
-## Inscript-Essonne : Filtre d'inscription
-Limits registration to users of a specific email domain.
+## Registration filter - Filtre d'inscription
+Limits registration to users of specific email domains.
 Only emails from the autorized domains will be allowed to register. 
 
 This can be used to limit registration to known domains (only emails from those domains will be registered), or to exclude spam domains from registration (registration will always fail if email matches one of these domains). 
@@ -15,12 +15,24 @@ Activez ce plugin si vous souhaitez restreindre l'inscription exclusivement aux 
 
 ## Installation
 - copy plugin folder to /mod folder
-- **rename** plugin folder to *adf_registration_filter*
 - active plugin
 
 
-## ROADMAP
-- domain blacklist
-- settings : whitelist + blacklist
+## History
+1.12.0 : new versionning
 
+0.4.1 : 20150719
+	- admin bypass to allow direct account creation by admin
 
+0.4 : 20150610 - Updated to Elgg 1.11
+	- renamed to registration_filter
+
+0.3 : 20150525 - +blacklist mode
+
+0.2.2 : activé à l'installation
+
+0.2.1 : ajustement du filtrage du username : remplacement des '@' par des '_' mais on garde les '.' (le tiret n'étant pas un caractère valide)
+
+0.2 : suppression du username (généré à partir de l'adresse mail d'inscription)
+
+0.1 : première version opérationnelle
