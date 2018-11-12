@@ -9,6 +9,23 @@
 	<copyright>Florian DANIEL aka Facyla, Items International, Conseil Général de l'Essonne, Assemblée des Départements de France</copyright>
 	<license>GNU Public License version 2</license>
 	
+	<screenshot>
+		<description>Plugin settings (FR)</description>
+		<path>screenshots/settings_fr.png</path>
+	</screenshot>
+	<screenshot>
+		<description>Plugin settings (sample config)</description>
+		<path>screenshots/settings_saved.png</path>
+	</screenshot>
+	<screenshot>
+		<description>White list information on registration form</description>
+		<path>screenshots/login_form.png</path>
+	</screenshot>
+	<screenshot>
+		<description>Wrong domain registration trial</description>
+		<path>screenshots/login_wrong_domain.png</path>
+	</screenshot>
+	
 	<requires>
 		<type>elgg_release</type>
 		<version>3.0</version>
